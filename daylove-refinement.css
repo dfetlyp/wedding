@@ -1,0 +1,193 @@
+/* Refined Day of Love — ivory paper, hand-circled palette, generous touch targets. */
+.daylove .big-date{isolation:isolate;overflow:hidden;padding-top:45px;padding-bottom:40px}
+.daylove .big-date>.script{position:absolute;z-index:0;top:53px;left:0;right:0;font-size:78px;line-height:1.1;transform:rotate(-13deg);color:var(--ink);pointer-events:none}
+.daylove .big-date>p{position:relative;z-index:1;font-size:112px;line-height:.78;margin-top:10px;letter-spacing:-3px}
+.daylove .dress{background:#efe3da;border:0;position:relative}
+.daylove .dress h2{margin-bottom:22px}
+.daylove .swatches{gap:24px;max-width:400px;margin:38px auto 30px}
+.daylove .swatch{width:68px;height:68px;border-radius:48% 52% 47% 53%/53% 46% 54% 47%;overflow:visible;position:relative;isolation:auto}
+.daylove .swatch:before,.daylove .swatch:after{content:'';position:absolute;inset:-7px;border:1px solid #6c7f43;border-radius:47% 53% 51% 49%/52% 46% 54% 48%;pointer-events:none;transform:rotate(-12deg)}
+.daylove .swatch:after{inset:-10px -6px -6px -9px;border-color:#93a2719c;border-radius:51% 49% 46% 54%/48% 53% 47% 52%;transform:rotate(14deg)}
+.daylove .sw-0{background:#fbf7ef;transform:rotate(-4deg)}
+.daylove .sw-1{background:#93a271;transform:rotate(6deg)}
+.daylove .sw-2{background:#73a075;transform:rotate(-6deg)}
+.daylove .sw-3{background:#6c7f43;transform:rotate(4deg)}
+.daylove .swatches figcaption{font-size:8px;letter-spacing:.2px;margin-top:23px;white-space:normal}
+.daylove .swatch>span{display:block;width:100%;height:100%}
+.daylove .details>.detail-block{padding:20px 0}
+.daylove .detail-block>.ink-icon{width:64px;height:68px;margin-bottom:22px;color:#82965e}
+.daylove .detail-block p{font-size:12px;line-height:2}
+.daylove .detail-block .text-button{font-size:11px;min-height:46px;display:inline-flex;align-items:center;justify-content:center;padding:10px 12px;border:1px solid #a1ad8a;border-radius:25px;min-width:210px;margin-top:23px;text-decoration:none}
+.daylove .detail-block .text-button:hover{background:#93a27112}
+.daylove .horse-sticker img{transform:none;object-fit:contain;height:180px;width:140px}
+.daylove .horse-sticker .script{transform:none;font-size:28px}
+.daylove .horse-sticker{height:190px;max-width:320px;gap:8px}
+.daylove .button,.daylove form>.btn{border-radius:30px;min-height:48px;padding:12px 24px;font-size:11px;letter-spacing:.4px}
+.daylove form>.btn{background:var(--green);color:#1e2b12;border-color:var(--green);min-height:50px}
+.daylove .button.outline{border-color:#96a479}
+.daylove .button.outline:hover,.daylove form>.btn:hover{background:#a6b78b;color:#1e2b12}
+.daylove .where-when a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;font-size:10px;padding:4px 0;text-underline-offset:4px}
+.daylove .timeline .ink-icon{stroke-width:1.7}
+.daylove .field>label,.daylove legend{font-size:11px}
+.daylove .choice{font-size:11px;min-height:43px}
+.daylove .rsvp>p{font-size:11px}
+.daylove .count-section{padding-top:40px}
+@media(max-width:500px){
+ .daylove .big-date{padding-top:40px;padding-bottom:35px}
+ .daylove .big-date>.script{top:44px;font-size:63px}
+ .daylove .big-date>p{font-size:94px;margin-top:7px;line-height:.8}
+ .daylove .dress{margin:18px 22px;padding:38px 22px}
+ .daylove .swatches{grid-template-columns:repeat(2,1fr);max-width:255px;gap:32px 35px;margin-top:35px;margin-bottom:30px}
+ .daylove .swatch{width:66px;height:66px}
+ .daylove .swatches figcaption{font-size:9px;margin-top:22px;white-space:nowrap}
+ .daylove .dress>p{font-size:11px}
+ .daylove .dress>.note{font-size:9px}
+ .daylove .timing{padding-left:18px;padding-right:18px}
+ .daylove .timeline{gap:9px}
+ .daylove .timeline .ink-icon{width:35px;height:41px}
+ .daylove .timeline time{font-size:23px}
+ .daylove .timeline h3{font-size:9px;line-height:1.7}
+ .daylove .timeline:before{top:59px}
+ .daylove .timeline article:after{top:59px}
+ .daylove .details{padding:35px 30px 20px}
+ .daylove .detail-block{margin:16px auto 27px}
+ .daylove .detail-block p{font-size:11px;line-height:2}
+ .daylove .detail-block>.ink-icon{width:60px;height:65px}
+ .daylove .detail-block .text-button{font-size:11px;min-height:48px;width:100%;max-width:285px}
+ .daylove .location .button{width:100%;max-width:285px;min-height:49px;font-size:11px;padding:12px 20px}
+ .daylove .location{padding-left:22px;padding-right:22px}
+ .daylove .rsvp{padding-left:30px;padding-right:30px}
+ .daylove .field>input,.daylove .field>textarea{font-size:16px}
+ .daylove .choice input{width:21px;height:21px}
+ .daylove .choice{font-size:11px;min-height:46px;gap:11px}
+ .daylove .options{gap:3px 12px}
+ .daylove form>.btn{min-height:51px;font-size:11px;padding:12px 20px}
+ .daylove .finish{padding-left:25px;padding-right:25px}
+ .daylove .horse-sticker{height:190px;max-width:290px}
+ .daylove .horse-sticker img{height:180px;width:135px}
+ .daylove .horse-sticker .script{font-size:26px;max-width:115px}
+ .daylove .form-note{font-size:9px}
+ .daylove .where-when h3{font-size:15px}
+ .daylove .where-when p{font-size:10px}
+}
+@media(max-width:360px){
+ .daylove .big-date>.script{top:43px;font-size:56px}
+ .daylove .big-date>p{font-size:85px;letter-spacing:-2px}
+ .daylove .swatches{max-width:225px;gap:30px}
+ .daylove .swatch{width:60px;height:60px}
+ .daylove .timeline{gap:5px}
+ .daylove .timeline time{font-size:21px}
+ .daylove .timeline h3{font-size:8px}
+ .daylove .timing{padding-left:13px;padding-right:13px}
+ .daylove .rsvp{padding-left:25px;padding-right:25px}
+ .daylove .choice{font-size:10px}
+ .daylove .detail-block p{font-size:11px}
+}
+@media(min-width:960px){
+ .daylove header{max-width:1180px;padding:25px 30px;font-size:10px}
+ .daylove .invite{max-width:1120px;display:grid;grid-template-columns:1fr 1fr;column-gap:60px;margin:35px auto 0;padding:0 30px}
+ .daylove .day-hero{grid-column:1;grid-row:1 / span 2;height:740px}
+ .daylove .day-hero h1{font-size:127px;top:53px;left:18px}
+ .daylove .day-hero h1 span{padding-left:72px}
+ .daylove .day-bottom{left:32px;right:30px;bottom:35px}
+ .daylove .day-bottom>span{font-size:12px;letter-spacing:2px}
+ .daylove .day-bottom>p{font-size:12px}
+ .daylove .big-date{grid-column:2;grid-row:1;padding:90px 0 65px;align-self:end}
+ .daylove .big-date>.script{top:115px;font-size:82px}
+ .daylove .big-date>p{font-size:128px;line-height:.8;margin-top:5px}
+ .daylove .where-when{grid-column:2;grid-row:2;align-self:start;padding:25px 0 50px;gap:35px}
+ .daylove .where-when h3{font-size:17px}
+ .daylove .where-when p{font-size:12px}
+ .daylove .where-when .note{font-size:9px}
+ .daylove .where-when a{font-size:11px;margin-top:18px}
+ .daylove .dear{grid-column:1 / -1;grid-row:3;border-top:0;padding:85px 60px 65px;max-width:750px;justify-self:center}
+ .daylove .dear h2{font-size:33px}
+ .daylove .dear h2 em{font-size:29px}
+ .daylove .dear>p{font-size:13px;line-height:2}
+ .daylove .dress{grid-column:1;grid-row:4;margin:0;padding:50px 32px 45px;align-self:center}
+ .daylove .dress h2{font-size:65px}
+ .daylove .dress p{font-size:12px}
+ .daylove .dress p.note{font-size:10px}
+ .daylove .dress .swatches{gap:20px;margin:40px auto 35px}
+ .daylove .dress .swatch{width:62px;height:62px}
+ .daylove .dress .swatches figcaption{font-size:8px}
+ .daylove .timing{grid-column:2;grid-row:4;padding:35px 0 40px;align-self:center}
+ .daylove .timing h2{font-size:65px}
+ .daylove .timeline{grid-template-columns:1fr;gap:0;margin:35px 0 0;padding-left:15px}
+ .daylove .timeline:before{left:46px;right:auto;top:20px;bottom:25px;height:auto;width:1px}
+ .daylove .timeline article{flex-direction:row;align-items:flex-start;text-align:left;gap:30px;padding-bottom:25px}
+ .daylove .timeline article:last-child{padding-bottom:0}
+ .daylove .timeline .ink-icon{width:62px;height:65px}
+ .daylove .timeline article:after{display:none}
+ .daylove .timeline time{font-size:30px;margin-bottom:5px;color:var(--deep)}
+ .daylove .timeline h3{font-size:13px}
+ .daylove .timeline p{display:block;font-size:10px}
+ .daylove .timing>.note{font-size:9px}
+ .daylove .location{grid-column:1 / -1;grid-row:5;margin:70px 0 0;padding:45px 40px 50px;display:grid;grid-template-columns:1fr 1fr;column-gap:60px;align-items:center;text-align:left}
+ .daylove .location h2{grid-column:1;grid-row:1 / span 2;font-size:78px;margin:0;text-align:center}
+ .daylove .location>.eyebrow{grid-column:2;grid-row:1;margin-bottom:9px;font-size:9px}
+ .daylove .location h3{grid-column:2;grid-row:2;font-size:30px;margin:0 0 10px}
+ .daylove .location>p:not(.note){grid-column:2;grid-row:3;font-size:12px}
+ .daylove .location>.note{grid-column:2;grid-row:4;margin-top:12px;font-size:10px}
+ .daylove .location>.button{grid-column:2;grid-row:5;justify-self:start;margin-top:25px}
+ .daylove .details{grid-column:1 / -1;grid-row:6;padding:70px 15px 65px;display:grid;grid-template-columns:1fr 1fr;column-gap:90px}
+ .daylove .details>h2{grid-column:1 / -1;font-size:70px;margin-bottom:22px}
+ .daylove .detail-block{max-width:370px;margin:10px auto}
+ .daylove .detail-block>.ink-icon{width:70px;height:75px}
+ .daylove .detail-block p{font-size:12px;min-height:120px}
+ .daylove .detail-block .text-button{min-width:250px}
+ .daylove .rsvp{grid-column:1;grid-row:7 / span 2;border-top:1px solid var(--line);padding:45px 15px 40px}
+ .daylove .rsvp h2{font-size:65px}
+ .daylove .rsvp>p{font-size:12px}
+ .daylove .field>label,.daylove legend{font-size:12px}
+ .daylove .field>input,.daylove .field>textarea{font-size:14px}
+ .daylove .choice{font-size:12px;min-height:44px}
+ .daylove .choice input{width:20px;height:20px}
+ .daylove .form-note{font-size:9px}
+ .daylove .count-section{grid-column:2;grid-row:7;border-top:1px solid var(--line);padding:45px 5px 25px;align-self:start}
+ .daylove .count-section h2{font-size:58px}
+ .daylove .countdown{max-width:420px;margin-top:28px}
+ .daylove .countdown b{font-size:47px}
+ .daylove .countdown span{font-size:9px}
+ .daylove .count-section .note{font-size:9px}
+ .daylove .finish{grid-column:2;grid-row:8;padding:25px 10px 30px;align-self:center}
+ .daylove .finish h2{font-size:66px}
+ .daylove .finish .names{font-size:34px}
+ .daylove .finish .date{font-size:10px}
+ .daylove .horse-sticker{height:210px;margin-top:25px}
+ .daylove .horse-sticker img{height:205px;width:150px}
+ .daylove footer{max-width:1120px;font-size:9px;margin-top:45px;padding-bottom:35px}
+ .daylove footer a{font-size:10px}
+}
+
+/* Horizontal date signature and a clearer, larger date composition. */
+.daylove .big-date{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:38px 20px 30px;overflow:hidden}
+.daylove .big-date>.date-number{font:136px/.79 var(--serif);letter-spacing:-4px;margin:0;position:relative;z-index:1}
+.daylove .big-date>.script{position:relative;inset:auto;transform:none;font-size:73px;line-height:1.2;margin:4px 0 7px;z-index:0;white-space:nowrap}
+.daylove .big-date>.date-year{margin-top:0}
+.daylove .dress{background:#fffdf8}
+.daylove form>.btn{font-family:var(--serif);font-size:23px;font-weight:400;text-transform:none;letter-spacing:.4px;line-height:1.1;min-height:52px}
+@media(max-width:500px){
+ .daylove .big-date{padding:34px 18px 28px}
+ .daylove .big-date>.date-number{font-size:119px;line-height:.79;letter-spacing:-3px;margin:0}
+ .daylove .big-date>.script{font-size:63px;line-height:1.12;margin:4px 0 8px;top:auto;left:auto;right:auto;transform:none}
+ .daylove form>.btn{font-size:22px;min-height:52px}
+}
+@media(max-width:360px){
+ .daylove .big-date{padding:30px 16px 25px}
+ .daylove .big-date>.date-number{font-size:105px;letter-spacing:-3px}
+ .daylove .big-date>.script{font-size:55px;margin:5px 0 8px;top:auto}
+ .daylove form>.btn{font-size:22px}
+}
+@media(min-width:960px){
+ .daylove .big-date{padding:35px 0 25px;align-self:center;min-height:430px}
+ .daylove .big-date>.date-number{font-size:170px;line-height:.77;letter-spacing:-5px;margin:0}
+ .daylove .big-date>.script{font-size:86px;line-height:1.12;margin:7px 0 12px;top:auto;left:auto;right:auto;transform:none}
+ .daylove .where-when{padding-top:8px;padding-bottom:35px}
+ .daylove form>.btn{font-size:24px}
+}
+
+/* Date artwork is a single composition at every viewport size. */
+.daylove .big-date{padding:22px 18px 15px;min-height:0;display:flex;align-items:center;justify-content:center}
+.daylove .date-art{width:100%;max-width:490px;height:auto;object-fit:contain}
+@media(min-width:960px){.daylove .big-date{min-height:0;padding:0;align-self:center}.daylove .date-art{max-width:500px}}
